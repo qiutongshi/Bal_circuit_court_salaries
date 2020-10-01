@@ -32,7 +32,8 @@ Both linear regression models seem to work well considering the significance F. 
 
 
 **Manipulation in Excel**
-1. Use MEDIAN, AVERAGE, COUNTIF, algorithms to find median, average, low ourliers, high outliers, fraction of outliers for individual income of people in Baltimore City and Los Angeles.  
-2. Build Pivot Table of median and average income of the two cities and create histogram to compare them.  
-3. Build Pivot Table of individual income of each city and put them together to see outliers, genearl distribution.  
-4. Build Pivot Table of fraction of low, high, general outliers of Baltimore City and Los Angeles and create a historam comparing these two.
+1. Simple linear regression: create a scatter plot then fit a line. Use trendline -> linear.  
+2. Calculate the error that this gives for each dependent datapoint.  
+3. Calculate standard error of the simple linear regression.  
+4. Use Data Analysis -> regression to do linear regressions on simple linear regression (again) for regression statistics.  
+5. Use Data Analysis -> regression to do multiple linear regression adding an independent variable of annual salary.  
