@@ -7,7 +7,7 @@ This project tries to predict the gross pay of employees from Baltimore City Cir
 What will the gross pay of employees from Baltimore City Circuit Court be in 2020?    
 
 **Data Source**  
-Baltimore City Employees Salaries:
+Baltimore City Employees Salaries:  
 i. https://data.baltimorecity.gov/browse?category=City+Government captures gross salary of Baltimore City employees from fiscal year 2011 through last fiscal year and includes employees who were employed on June 30 of last fiscal year. 
 
 
