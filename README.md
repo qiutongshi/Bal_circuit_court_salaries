@@ -25,6 +25,8 @@ We’ll use Microsoft Excel to answer:
 - The multiple linear regression is a more reliable prediction. Its higher R indicates a stronger positive linear relationship, and its goodness fit has reached 78.22%, which is around 2.5 times better than a single linear regression. The standard error of the multiple is also smaller. 
 <img width="573" alt="Screen Shot 2020-10-01 at 16 18 38" src="https://user-images.githubusercontent.com/70663111/94858947-c87c4d80-0401-11eb-8d86-39e907abc8c2.png">   
 Statistically speaking, both linear regression models are statistically significant because both Significance F are smaller than 0.05. 
+<img width="632" alt="Screen Shot 2020-10-01 at 17 06 43" src="https://user-images.githubusercontent.com/70663111/94863484-86a2d580-0408-11eb-9b41-73515e0a7cbc.png">
+
 
 
 
