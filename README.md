@@ -17,16 +17,19 @@ We’ll use Microsoft Excel to answer:
 
 **Data Answer**  
 - Prediction based on a simple linear regression analysis indicates a goodness of fit of %29.13. The function used to predict is y = 1226.7 * x + 35896, where y is the Gross Pay and x is the number of years worked by the employees. 
-<img width="1268" alt="Screen Shot 2020-09-17 at 15 06 51" src="https://user-images.githubusercontent.com/70663111/93515992-6bf43b00-f8f7-11ea-8ff5-d176be0fe239.png">. 
-- Los Angeles has a higher median and average income than Baltimore City. Understandable because Los Angeles has a higher state minimum salary and GDP in general. Both cities have a median income higher than average income because of outliers. 
-<img width="361" alt="image" src="https://user-images.githubusercontent.com/70663111/93515405-8b3e9880-f8f6-11ea-9210-0e66497b4b8a.png">. 
-- Los Angeles has larger economic inequality in individual income. Note that Baltimore City has areas where individual income is among the medium range.
-<img width="962" alt="Screen Shot 2020-09-17 at 15 11 32" src="https://user-images.githubusercontent.com/70663111/93516472-13716d80-f8f8-11ea-8301-1f74c33ef47f.png">.  
-- There are still individuals in Los Angeles that are not mobilized well enough that their individual income is too low for the lowest despite their chances of having a college degree is twice as those from the same socioeconomic class in Baltimore City. In Baltimore City, however, individuals have a higher rate of having higher individual income, and none of Baltimorians individual income is too low.  
-<img width="406" alt="image" src="https://user-images.githubusercontent.com/70663111/93516646-56334580-f8f8-11ea-8edf-505625563b37.png">.  
+<img width="310" alt="Screen Shot 2020-10-01 at 16 18 03" src="https://user-images.githubusercontent.com/70663111/94858884-b3072380-0401-11eb-8dfb-47e722893873.png">  
+- Prediction based on a multiple linear regression analysis indicates a goodness of fit of %78.22. The function used to predict is y = 0.92 * x1 + 406.22 * x2 - 6276.6835, where y is the Gross Pay, x1 is the amount of annual salary and  x2 is the number of years worked by the employees.  
+<img width="626" alt="Screen Shot 2020-10-01 at 16 18 19" src="https://user-images.githubusercontent.com/70663111/94858918-bc908b80-0401-11eb-94ab-5b795624bcb4.png">  
+- The multiple linear regression is a more reliable prediction. Its higher R indicates a stronger positive linear relationship, and its goodness fit has reached 78.22%, which is around 2.5 times better than a single linear regression. The standard error of the multiple is also smaller. 
+<img width="573" alt="Screen Shot 2020-10-01 at 16 18 38" src="https://user-images.githubusercontent.com/70663111/94858947-c87c4d80-0401-11eb-8d86-39e907abc8c2.png">   
+Statistically speaking, both linear regression models are statistically significant because both Significance F are smaller than 0.05. 
+
+
 
 **Recap**     
-The initial question was assuming that there is a correlation between college graduation rate and individual income/ poverty rate for those whose parents have low income. Unfortunately, this data analysis failed to prove this seemingly “common-sense” assumption. Some additional data that might be helpful include comparing middle and lower income families in Baltimore and looking at the industries people work in. This is important because 1. college degrees’ effect can be undermined because of one’s original socio-economic class. 2. College degree is not the only way to mobilize. Blue-collar and people in business do not necessarily require college degrees.   
+Both linear regression models seem to work well considering the significance F. The prediction of the employee’s gross pay in 2020 are in the attached excel files for each employee. Additional steps that might be helpful to have better predictions are: 1. Filter the data according to different job titles. 2. Use non-linear regression models if the only dependent variable is the number of years worked. 3. Group different employees according to bonus or commissions etc.  
+
+
 
 **Manipulation in Excel**
 1. Use MEDIAN, AVERAGE, COUNTIF, algorithms to find median, average, low ourliers, high outliers, fraction of outliers for individual income of people in Baltimore City and Los Angeles.  
