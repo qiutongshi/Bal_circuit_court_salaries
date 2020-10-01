@@ -1,6 +1,6 @@
 # Baltimore City Circut Court Gross Pay in 2020
 **Background**  
-This project tries to predict the gross pay of employees from Baltimore City Circuit Court in 2020 given the information of years worked, historical annual salary and gross pay. It is going to predict by years worked only and then predict based on historical annual salary. Linear regression statistics will also be given to consider the validity of the predictions. 
+This project tries to predict the gross pay of employees from Baltimore City Circuit Court in 2020 given the information of years worked, historical annual salary and gross pay. It is going to predict by years worked only and then predict based on historical annual salary. Linear regression statistics will also be given to consider the validity of the predictions.   
 **Business Question**  
 What will the gross pay of employees from Baltimore City Circuit Court be in 2020?    
 
