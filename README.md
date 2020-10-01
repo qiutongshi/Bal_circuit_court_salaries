@@ -18,7 +18,7 @@ We’ll use Microsoft Excel to answer:
 - How reliable are the two predictions? Interpret their linear regression statistics to compare and contrast the two regressions.  
 
 **Data Answer**  
-- Prediction based on a simple linear regression analysis indicates a goodness of fit of %29.13. The function used to predict is y = 1226.7 * x + 35896, where y is the Gross Pay and x is the number of years worked by the employees. 
+- Prediction based on a simple linear regression analysis indicates a goodness of fit of %29.13. The function used to predict is y = 1226.7 * x + 35896, where y is the Gross Pay and x is the number of years worked by the employees. The orange dots represent predicted pay from single linear regression of the fiscal year and it does not seem to fit well in areas away from the line.  
 <img width="310" alt="Screen Shot 2020-10-01 at 16 18 03" src="https://user-images.githubusercontent.com/70663111/94858884-b3072380-0401-11eb-8dfb-47e722893873.png">  
 - Prediction based on a multiple linear regression analysis indicates a goodness of fit of %78.22. The function used to predict is y = 0.92 * x1 + 406.22 * x2 - 6276.6835, where y is the Gross Pay, x1 is the amount of annual salary and  x2 is the number of years worked by the employees.  
 <img width="626" alt="Screen Shot 2020-10-01 at 16 18 19" src="https://user-images.githubusercontent.com/70663111/94858918-bc908b80-0401-11eb-94ab-5b795624bcb4.png">  
